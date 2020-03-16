@@ -1,0 +1,58 @@
+.social-nets-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+}
+
+.fabmain{
+    border-radius: 60px;
+    margin-top: 5px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.fabmain.openNets{
+    transform: rotate(90deg);
+}
+
+.fab{
+    border-radius: 60px;
+    margin-top: 5px;
+    color: white;
+    display: none;
+}
+
+.addIcon{
+    /* background: #1741cae5; */
+    background: #8E0E00;
+
+}
+
+.addIcon.openNets{
+    background: #000000e5;
+    color: white
+}
+
+.instagramIcon{
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.youTubeIcon{
+    background: #cb071be5;
+}
+
+.whatsAppIcon{
+    background: #0c6a43e5;
+}
+
+.facebookIcon{
+    background: #1678c9e5;
+}
+
+.openNets{
+    display: block;
+}

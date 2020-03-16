@@ -1,0 +1,57 @@
+.options-food-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    right: 12px;
+}
+
+.fab-main-food{
+    border-radius: 60px;
+    margin-top: 5px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.fab-main-food.open-food{
+    transform: rotate(90deg);
+}
+
+.fab-food{
+    border-radius: 60px;
+    margin-top: 5px;
+    color: white;
+    display: none;
+}
+
+.restaurantIcon{
+    background: #8E0E00;
+}
+
+.restaurantIcon.open-food{
+    background: #000000e5;
+    color: white
+}
+
+.pizzaIcon{
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to top, #fdbb2d, #b21f1f, #1a2a6c);
+    background: linear-gradient(to top, #fdbb2d, #b21f1f, #1a2a6c);
+}
+
+.pieIcon{
+    background: #e9d362;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #333333, #e9d362);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #333333, #e9d362); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.drinkIcon{
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.open-food{
+    display: block;
+}
